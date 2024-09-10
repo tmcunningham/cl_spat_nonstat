@@ -11,7 +11,7 @@ The code files in this repository are as follows:
 - `akaike_weights.R`: code to calculate Akaike weights of different bandwidths of MGWR models and resulting 95% confidence intervals
 
 ## Data
-Data used in this project was from the India Census 2011 and downloaded from [](https://censusindia.gov.in/nada/index.php/catalog). An Excel sheet for each state was saved in folder within the `data` folder corresponding to the type of table. The folders containing all state files for each table are:
+Data used in this project was from the India Census 2011 and downloaded from [https://censusindia.gov.in/nada/index.php/catalog](https://censusindia.gov.in/nada/index.php/catalog). An Excel sheet for each state was saved in folder within the `data` folder corresponding to the type of table. The folders containing all state files for each table are:
 - `/data/district_age_ed_inst_ec_activity` - "C-12: Population age 5-19 attending educational institution by economic activity status and sex (total)"
 - `/data/district_age_education_level` - "C-08: Educational level by age and sex for population age 7 and above (total)"
 - `/data/district_age_sex_hh_head` - "HH-06: Households by marital status, sex and age of the head of household (total)"
