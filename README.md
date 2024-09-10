@@ -26,3 +26,5 @@ The folders containing all state files for each table are:
 Two other reference tables were downloaded and saved in the /data folder:
 - `data/A-1_NO_OF_VILLAGES_TOWNS_HOUSEHOLDS_POPULATION_AND_AREA.xlsx` - "A-01: Number of villages, towns, households, population and area (India, states/UTs, districts and Sub-districts) - 2011"
 - `data/PC11_TV_DIR.xlsx` - "Census 2011 - Location Code Directory"
+
+Additionally, estimates of district-level wealth were taken from the paper Mohanty, S.K., Govil, D., Chauhan, R.K., Kim, R., Subramanian, S., 2016. Estimates of poverty and inequality in the districts of India, 2011–2012. Journal of Development Policy and Practice 1, 142–202. [doi:10.1177/2455133316642338](https://journals.sagepub.com/doi/abs/10.1177/2455133316642338?journalCode=jdpa). The data from Table A1, Appendix A was copied into a CSV and saved as `data/wealth_est.csv`.
