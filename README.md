@@ -11,9 +11,7 @@ The code files in this repository are as follows:
 - `akaike_weights.R`: code to calculate Akaike weights of different bandwidths of MGWR models and resulting 95% confidence intervals
 
 ## Data
-Data used in this project was from the India Census 2011 and downloaded from https://censusindia.gov.in/nada/index.php/catalog.
-
-The folders containing all state files for each table are:
+Data used in this project was from the India Census 2011 and downloaded from [](https://censusindia.gov.in/nada/index.php/catalog). An Excel sheet for each state was saved in folder within the `data` folder corresponding to the type of table. The folders containing all state files for each table are:
 - `/data/district_age_ed_inst_ec_activity` - "C-12: Population age 5-19 attending educational institution by economic activity status and sex (total)"
 - `/data/district_age_education_level` - "C-08: Educational level by age and sex for population age 7 and above (total)"
 - `/data/district_age_sex_hh_head` - "HH-06: Households by marital status, sex and age of the head of household (total)"
@@ -27,4 +25,4 @@ Two other reference tables were downloaded and saved in the /data folder:
 - `data/A-1_NO_OF_VILLAGES_TOWNS_HOUSEHOLDS_POPULATION_AND_AREA.xlsx` - "A-01: Number of villages, towns, households, population and area (India, states/UTs, districts and Sub-districts) - 2011"
 - `data/PC11_TV_DIR.xlsx` - "Census 2011 - Location Code Directory"
 
-Additionally, estimates of district-level wealth were taken from the paper Mohanty, S.K., Govil, D., Chauhan, R.K., Kim, R., Subramanian, S., 2016. Estimates of poverty and inequality in the districts of India, 2011–2012. Journal of Development Policy and Practice 1, 142–202. [doi:10.1177/2455133316642338](https://journals.sagepub.com/doi/abs/10.1177/2455133316642338?journalCode=jdpa). The data from Table A1, Appendix A was copied into a CSV and saved as `data/wealth_est.csv`.
+Additionally, estimates of district-level wealth (calculated from the census data) were taken from the paper Mohanty, S.K., Govil, D., Chauhan, R.K., Kim, R., Subramanian, S., 2016. Estimates of poverty and inequality in the districts of India, 2011–2012. Journal of Development Policy and Practice 1, 142–202. [doi:10.1177/2455133316642338](https://journals.sagepub.com/doi/abs/10.1177/2455133316642338?journalCode=jdpa). The data from Table A1, Appendix A was copied into a CSV and saved as `/data/wealth_est.csv`. The file `/data/final_distr_names.csv` contains a table to convert between the naming conventions of the census data and the paper.
