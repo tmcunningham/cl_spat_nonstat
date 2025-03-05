@@ -12,7 +12,7 @@ from mgwr.sel_bw import Sel_BW
 random.seed(1234)
 
 # Read projected district boundaries
-district_data = gp.read_file("outputs/scaled_data_proj.gpkg")
+district_data = gp.read_file("outputs/scaled_complete_data_proj.gpkg")
 
 # Prepare data for modelling
 indep_vars = ["u14_perc_att_ed", "o18_perc_lit", "hh_mean_size","sc_perc", 
